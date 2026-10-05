@@ -1,0 +1,8 @@
+[
+  {"Subject": "Intel: Evaluating vendors, budget in Q3", "ActivityDate": "2025-11-02",
+   "Description": "Acme is evaluating vendors, budget in Q3. Their ops lead asked for pricing.\n\n-- Logged via Account Intel Bot from Slack #sales (buying_signal), posted by Jordan Lee\nhttps://example.slack.com/archives/CFIXTURE1/p1"},
+  {"Subject": "Intel: Ops lead wants a security review before signing", "ActivityDate": "2025-11-20",
+   "Description": "Ops lead wants a security review before signing.\n\n-- Logged via Account Intel Bot from Slack #sales (deal_context), posted by Sam Rivera\nhttps://example.slack.com/archives/CFIXTURE1/p2"},
+  {"Subject": "Intel: New head of marketing joined in February", "ActivityDate": "2025-10-11",
+   "Description": "New head of marketing joined in February."}
+]

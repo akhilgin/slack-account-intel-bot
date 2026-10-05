@@ -1,0 +1,14 @@
+[
+  {"channel": "sales", "author": "Jordan Lee", "ts": "1760000000.000100", "permalink": "https://example.slack.com/archives/CFIXTURE1/p1760000000000100",
+   "text": "Acme is evaluating vendors, budget in Q3. Their ops lead asked for pricing."},
+  {"channel": "sales", "author": "Sam Rivera", "ts": "1760003600.000200", "permalink": "https://example.slack.com/archives/CFIXTURE1/p1760003600000200",
+   "text": "Heads up: talked to dana@northwind-analytics.example today. They are struggling with onboarding emails and want a demo."},
+  {"channel": "sales", "author": "Jordan Lee", "ts": "1760007200.000300", "permalink": "https://example.slack.com/archives/CFIXTURE1/p1760007200000300",
+   "text": "Globex renewal is up in January and they are frustrated with their current tool."},
+  {"channel": "sales", "author": "Sam Rivera", "ts": "1760010800.000400", "permalink": "https://example.slack.com/archives/CFIXTURE1/p1760010800000400",
+   "text": "Met the Initech marketing director at the dinner last night. Warm intro to their VP coming."},
+  {"channel": "sales", "author": "Jordan Lee", "ts": "1760014400.000500", "permalink": "https://example.slack.com/archives/CFIXTURE1/p1760014400000500",
+   "text": "Who is taking the 3pm call today?"},
+  {"channel": "sales", "author": "Sam Rivera", "ts": "1760018000.000600", "mention": true, "permalink": "https://example.slack.com/archives/CFIXTURE1/p1760018000000600",
+   "text": "Umbrella Labs just hired a new head of growth, budget approved for next quarter."}
+]

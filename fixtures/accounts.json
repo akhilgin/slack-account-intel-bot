@@ -1,0 +1,7 @@
+[
+  {"Id": "001FAKE0001", "Name": "Acme Robotics", "Website": "https://www.acme-robotics.example", "Is_Target__c": true},
+  {"Id": "001FAKE0002", "Name": "Northwind Analytics, Inc.", "Website": "northwind-analytics.example", "Is_Target__c": false},
+  {"Id": "001FAKE0003", "Name": "Globex Energy", "Website": "globex.example", "Is_Target__c": false},
+  {"Id": "001FAKE0004", "Name": "Globex Logistics", "Website": "globex-logistics.example", "Is_Target__c": false},
+  {"Id": "001FAKE0005", "Name": "Initech", "Website": "initech.example", "Is_Target__c": false}
+]

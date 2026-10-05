@@ -1,0 +1,64 @@
+{
+  "bot_name": "Account Intel Bot",
+  "channels": ["sales", "account-intel"],
+  "dm_intake": true,
+  "poll_interval_seconds": 60,
+  "approval": "reaction",
+  "state_file": "state.json",
+  "pending_ttl_days": 7,
+
+  "salesforce": {
+    "target_org": "production",
+    "api_version": "v60.0",
+    "domain_field": "Website",
+    "name_fields": ["Name"],
+    "priority_field": null,
+    "max_name_attempts": 6
+  },
+
+  "task": {
+    "type": "Intel",
+    "subject_prefix": "Intel: ",
+    "status": "Completed",
+    "priority": "Normal",
+    "record_type_developer_name": null,
+    "fields": {
+      "intel_type": null,
+      "source_link": null,
+      "logged_by": null
+    },
+    "default_owner_id": null,
+    "owner_map": {}
+  },
+
+  "digest": {
+    "enabled": false,
+    "account_field": "Intel_Digest__c",
+    "last_date_field": null,
+    "max_chars": 1000,
+    "max_items": 15,
+    "lookback_days": 90
+  },
+
+  "llm": {
+    "enabled": true,
+    "model": "claude-sonnet-5-5",
+    "extract_max_tokens": 500,
+    "digest_max_tokens": 600,
+    "timeout_seconds": 30
+  },
+
+  "ignore_domains": [
+    "gmail.com", "outlook.com", "yahoo.com", "hotmail.com", "icloud.com",
+    "slack.com", "google.com", "linkedin.com", "zoom.us", "notion.so"
+  ],
+
+  "intel_keywords": {
+    "buying_signal": ["budget", "renewal", "proposal", "pricing", "quote", "procurement", "timeline", "evaluating", "vendor", "rfp"],
+    "competitor_or_stack": ["uses", "using", "stack", "migrating", "switching", "replacing"],
+    "people_or_org": ["hired", "joined", "left the company", "new vp", "new head", "promoted", "reorg", "champion"],
+    "pain_or_priority": ["pain", "struggling", "frustrated", "priority", "goal", "problem", "bottleneck"],
+    "relationship": ["met", "intro", "introduced", "conference", "event", "dinner"],
+    "deal_context": ["stalled", "objection", "pushback", "lost", "no decision"]
+  }
+}

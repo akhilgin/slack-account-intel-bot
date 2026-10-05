@@ -1,0 +1,7 @@
+config.json
+.env
+.slack/
+state.json
+*.log
+__pycache__/
+*.pyc
